@@ -1,0 +1,51 @@
+.under-carousel-category{
+    padding: 40px 0;
+    padding-top: 100px;
+}
+.under-carousel-category-cards{
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    gap: 75px;
+
+}
+.circle-card{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle-card .image{
+    border-radius: 50%;
+}
+.circle-card .image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all ease .2s;
+}
+.circle-card .image img:hover{
+    cursor: pointer;
+    border: 2px solid #6610f2;
+    transform: scale(0.9);
+    opacity: .9;
+}
+.circle-card .card-content p span{
+    margin: 0 5px;
+    transition: all ease .2s;
+
+}
+.circle-card:hover .card-content p span{
+    color: #6610f2;
+    transform: scale(0.9);
+    opacity: .9;
+
+}
+.card-content p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111111;
+}

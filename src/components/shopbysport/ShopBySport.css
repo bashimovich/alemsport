@@ -1,0 +1,22 @@
+.shop-by-sport-container{
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    gap: 65px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.shop-by-sport-card{
+    width: 156px;
+    transition: all ease .3s;
+}
+.shop-by-sport-card:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 10px -6px black;
+    transform: translateY(-5px);
+}
+.shop-by-sport-card .image{
+    width: 100%;
+}
+.shop-by-sport-card .image img{
+    width: 100%;
+}

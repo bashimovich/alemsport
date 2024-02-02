@@ -1,0 +1,37 @@
+.footer{
+    background-color: #000;
+    color: white;
+    padding-top: 100px;
+}
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+.contents{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contents .signupp{
+    color: #f4b72d;
+    font-weight: bold;
+}
+
+.contact-inputs label{
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.contact-inputs p{
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+.footer__input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    margin: 10px 0;
+}

@@ -1,0 +1,89 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+}
+.wrapper{
+    box-shadow: 0 4px 8px 0 rgba(232, 226, 226, 0.25);
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    width: 150px;
+}
+.category-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.category-links ul li{
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 14px;
+    border-bottom: 2px solid #fff;
+    transition: all ease .4s;
+}
+.category-links ul li:hover{
+    border-bottom: 2px solid #ffc107;
+    cursor: pointer;
+}
+.for-user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.for-user p{
+    margin-left: 20px;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+.user-profile span{
+    margin-left: 10px;
+}
+.subcategories-links{
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .6s;
+    box-shadow: 0 6px 20px -6px black;
+
+
+}
+.category-links ul li:hover .subcategories-links{
+    opacity: 1;
+    visibility: visible;
+}
+.subcategory-container-btn{
+    width: 100%;
+    background-color: #ffc107;
+    padding: 7px 0 !important;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.subcategory-container-btn:hover{
+    cursor: pointer;
+    opacity: .7;
+}
